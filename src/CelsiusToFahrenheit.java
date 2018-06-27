@@ -27,12 +27,12 @@ public class CelsiusToFahrenheit {
 
     }
 
-    public static double CtoF(double C) {
+     static double CtoF(double C) {
         double F = (9.0 / 5) * C + 32;
         return F;
     }
 
-    public static double FtoC(double F) {
+     static double FtoC(double F) {
         double C = (5.0 / 9) * (F - 32);
         return C;
     }
